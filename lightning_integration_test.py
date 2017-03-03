@@ -18,7 +18,6 @@ telnet_request_proc = subprocess.Popen(telnet_request_command, stdout=subprocess
 # TODO: Use Python unit test frameworks + logging libraries
 print('DEBUG: Lightning server started!')
 
-
 # as the telnet is hanging, we will perform an echo request, which should still be 
 # handled by a separate handler in a new thread; it will still succeed and return 
 # a response instantly.

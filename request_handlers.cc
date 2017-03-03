@@ -13,6 +13,9 @@
 #include <fstream>
 #include <iomanip>
 #include <iostream>
+#include <istream>
+#include <ostream>
+#include <sstream>
 #include <string>
 
 using boost::asio::ip::tcp;
